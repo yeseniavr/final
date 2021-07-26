@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+  }
+.header{
+    background: linear-gradient(300deg,rgb(0, 128, 55),rgb(178, 35, 197))!important;
+    height: 100px; 
+
+}
+.principal{
+    display:flex;
+    margin: 0%;
+    padding:0%;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.cuerpo{
+    margin:5%;
+
+}
+.sidebar{
+    line-height:1;
+    color: white;
+    text-align: left;
+    background-color: #fff;
+    margin:0%;
+    width: 150px;
+    height: 550px;
+    background: linear-gradient(15deg,rgb(0, 128, 55),rgb(178, 35, 197))!important;
+}
+.fa-user-o,  .fa-newspaper-o, .fa-users, .fa-usd{
+    color:rgb(131, 141, 135);
+    text-align: center;
+}  
+
+.acciones{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    margin:0%;
+    width: 150px;
+    height: 550px;  
+}
+.navbar ul li{
+    text-align: center;
+    list-style: none;
+
+}
+.logo{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }*/
+
+  #form_ingreso{
+    margin:auto;
+    width: 50%;
+    max-width: 500px;
+    background: #F3f3f3;
+    padding:30px;
+    border:1px solid rgba(0,0,0,0.2);  
+}
+
+.form_titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgba(0,0,0,0.5);
+    font-size: 2rem;
+}
+.form_input{
+    display:block;
+    padding: 10px;
+    width:100%;
+    margin:30px 0;
+    font-size: 20px;
+    border-radius: 20px;
+
+
+    outline:none;
+}
+.form_input[type="submit"]{
+    background: linear-gradient(white,slateblue);
+    border: 0;
+    color: rgb(77, 77, 47);
+    opacity: 0.8;
+    cursor:pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+.form_input[type="submit"]:hover{
+    opacity:1;
+}
+.form_input[type="submit"]:active{
+    transform: scale(0.95);
+}
+
+
+.form_input[type="reset"]{
+    background: linear-gradient(white,rgb(34, 165, 89));
+    border: 0;
+    color: rgb(77, 77, 47);
+    opacity: 0.8;
+    cursor:pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+
+.form_input[type="reset"]:hover{
+    opacity:1;
+}
+.form_input[type="reset"]:active{
+    transform: scale(0.95);
+}
+
+@media (max-width:768px){
+    .form_ingreso{
+        width: 75%;
+    }
+}
+@media(max-width){
+    .form_ingreso{
+        width: 95%;
+    }
+}
+
+#personaEmp{
+    display:none;
+   }

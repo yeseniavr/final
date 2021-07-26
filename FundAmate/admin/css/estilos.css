@@ -1,0 +1,98 @@
+
+
+.fondoMenu{
+   
+    background: linear-gradient(300deg,rgb(0, 128, 55),white)!important;
+    text-align: center;  
+    color:rgb(0, 128, 55) !important;
+}
+h1{
+    color:violet;
+    background-color: royalblue;
+}
+.resaltar:hover{
+    background-color: yellow;
+
+}
+.logo{
+width: 350px;
+margin-top: 0%;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+input {
+    border: 2px #ccc;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px  #ccc;
+    border-radius: 20px;
+    width: 500px;
+    background: #eee;
+    background: linear-gradient(300deg,rgb(0, 128, 55),white)!important;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(0, 128, 55);
+    color: white;
+    border-radius: 20px;
+}
+ 
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: rgb(0, 128, 55);
+    display: inline-block;
+    padding: 2px 10px;
+}
+ 
+p.error {
+    background:red;
+}
+
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body
+    {margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+html{
+    box-sizing: border-box;
+}
+
+section{
+    width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(0, 128, 55);
+    color: white;
+    border-radius: 20px;
+}
+
+#personaEmp{
+ display:none;
+}
